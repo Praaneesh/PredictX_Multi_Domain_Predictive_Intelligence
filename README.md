@@ -20,7 +20,7 @@ PrediX focuses on three different real-world problem domains:
 | ---------------------------------- | -----: | -------------- | -------------- |
 | Combined Cycle Power Plant         |    294 | Regression     | Energy         |
 | Steel Plates Faults                |    198 | Classification | Manufacturing  |
-| Human Activity Kinematic Profiling |    240 | Classification | Human Activity |
+| Human Activity Kinematic Profiling |    240 | Clustering     | Human Activity |
 
 The objective is to study how different Machine Learning algorithms perform
 across different datasets and problem types.
