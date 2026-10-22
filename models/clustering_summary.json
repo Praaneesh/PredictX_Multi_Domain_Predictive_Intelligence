@@ -1,0 +1,70 @@
+{
+    "dataset": {
+        "name": "Human Activity Recognition (HAR)",
+        "uci_id": 240,
+        "domain": "Human Activity Kinematics & Wearable Sensors",
+        "samples": 10299,
+        "features": 561,
+        "num_activities": 6,
+        "activities": [
+            "WALKING",
+            "WALKING_UPSTAIRS",
+            "WALKING_DOWNSTAIRS",
+            "SITTING",
+            "STANDING",
+            "LAYING"
+        ]
+    },
+    "best_performers": {
+        "silhouette": {
+            "algorithm": "Agglomerative - Average",
+            "score": 0.4287,
+            "criterion": "Higher is better"
+        },
+        "davies_bouldin": {
+            "algorithm": "Agglomerative - Average",
+            "score": 1.102,
+            "criterion": "Lower is better"
+        },
+        "calinski_harabasz": {
+            "algorithm": "K-Means",
+            "score": 2556.5419,
+            "criterion": "Higher is better"
+        }
+    },
+    "cluster_sizes": {
+        "K-Means": {
+            "0": 2638,
+            "1": 307,
+            "2": 1920,
+            "3": 2449,
+            "4": 1338,
+            "5": 1647
+        },
+        "Agglomerative - Ward": {
+            "0": 3208,
+            "1": 1313,
+            "2": 1206,
+            "3": 1834,
+            "4": 151,
+            "5": 2587
+        },
+        "Agglomerative - Complete": {
+            "0": 5626,
+            "1": 218,
+            "2": 2,
+            "3": 12,
+            "4": 4439,
+            "5": 2
+        },
+        "Agglomerative - Average": {
+            "0": 138,
+            "1": 10141,
+            "2": 15,
+            "3": 2,
+            "4": 2,
+            "5": 1
+        }
+    },
+    "pca_variance_explained": 56.98
+}

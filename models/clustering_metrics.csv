@@ -1,0 +1,5 @@
+Algorithm,Silhouette Score,Davies-Bouldin Index,Calinski-Harabasz Index,Clusters (K),Cluster Structure,Key Strength
+K-Means,0.1096,2.3836,2556.5419,6,Centroid / Voronoi Spherical Partitioning,Highest Calinski-Harabasz Index (compact clusters)
+Agglomerative - Ward,0.1139,2.482,2349.6677,6,Hierarchical Minimum Variance,Balanced clusters with low internal variance
+Agglomerative - Complete,0.3804,1.3004,1898.41,6,Hierarchical Maximum Pairwise Distance,High separation between cluster boundaries
+Agglomerative - Average,0.4287,1.102,161.1037,6,Hierarchical Mean Pairwise Distance,Best Silhouette Score & Best Davies-Bouldin Index
